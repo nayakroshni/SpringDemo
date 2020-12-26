@@ -28,7 +28,7 @@ public class UserModel
 	private String firstName;
 	
 	@Column(name = "middleName")
-	private String middleName;
+	public String middleName;
 	
 	
 	@ManyToOne
